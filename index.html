@@ -11,42 +11,62 @@
     <title>السيرة الذاتية | عبد المالك صلاح عباس</title>
     <link href="style.css" rel="stylesheet" />
   </head>
+
   <body>
     <div aria-label="أدوات السيرة الذاتية" class="toolbar">
       <button class="toolbar-btn primary" id="printBtn" type="button">
         طباعة / حفظ PDF
       </button>
+
       <button class="toolbar-btn" id="editBtn" type="button">
         تعديل المحتوى
       </button>
-      <button class="toolbar-btn" hidden="" id="saveBtn" type="button">
+
+      <button class="toolbar-btn" hidden id="saveBtn" type="button">
         حفظ التعديلات
       </button>
-      <button class="toolbar-btn danger" hidden="" id="resetBtn" type="button">
+
+      <button class="toolbar-btn danger" hidden id="resetBtn" type="button">
         استعادة النسخة الأصلية
       </button>
     </div>
+
     <main class="cv-document" id="resume">
+
+      <!-- ===================================================== -->
       <!-- الصفحة الأولى -->
+      <!-- ===================================================== -->
+
       <section class="cv-page page-one">
+
+        <!-- Sidebar -->
         <aside class="sidebar">
+
           <header class="profile-header">
             <img
               alt="الصورة الشخصية لعبد المالك صلاح عباس"
               class="profile-photo"
               src="assets/img-000.png"
             />
-            <h1 data-editable="" id="fullName">عبد المالك صلاح عباس</h1>
-            <p class="job-title" data-editable="" id="jobTitle">
+
+            <h1 data-editable id="fullName">
+              عبد المالك صلاح عباس
+            </h1>
+
+            <p class="job-title" data-editable id="jobTitle">
               مطور نظم وبرمجيات
             </p>
-            <p class="official-title" data-editable="" id="officialTitle">
+
+            <p class="official-title" data-editable id="officialTitle">
               المسمى الوظيفي الرسمي: مبرمج
             </p>
           </header>
+
+          <!-- نبذة مهنية -->
           <section class="side-section summary-card">
             <h2>نبذة مهنية</h2>
-            <p data-editable="" id="summary">
+
+            <p data-editable id="summary">
               مطور نظم وبرمجيات بخبرة عملية في بناء الأنظمة المؤسسية وتطوير
               تطبيقات الويب وموديولات Odoo، بدءًا من تحليل احتياجات المستخدمين
               وتصميم قواعد البيانات والواجهات، وصولًا إلى النشر والتدريب والدعم
@@ -54,444 +74,781 @@
               المطور الوحيد والقائد التقني.
             </p>
           </section>
+
+          <!-- معلومات الاتصال -->
           <section class="side-section">
             <h2>معلومات الاتصال</h2>
             <div class="side-rule"></div>
+
             <ul class="contact-list">
               <li>
-                <span class="contact-icon">☎</span
-                ><a
-                  data-editable=""
+                <span class="contact-icon">☎</span>
+
+                <a
+                  data-editable
                   dir="ltr"
                   href="tel:+218914344721"
                   id="phone"
-                  >+218 91 4344721</a
                 >
+                  +218 91 4344721
+                </a>
               </li>
+
               <li>
-                <span class="contact-icon">✉</span
-                ><a
-                  data-editable=""
+                <span class="contact-icon">✉</span>
+
+                <a
+                  data-editable
                   dir="ltr"
                   href="mailto:endm268@gmail.com"
                   id="email"
-                  >endm268@gmail.com</a
                 >
+                  endm268@gmail.com
+                </a>
               </li>
+
               <li>
-                <span class="contact-icon">⌖</span
-                ><span data-editable="" id="location">مصراتة، ليبيا</span>
+                <span class="contact-icon">⌖</span>
+
+                <span data-editable id="location">
+                  مصراتة، ليبيا
+                </span>
               </li>
             </ul>
           </section>
+
+          <!-- المهارات -->
           <section class="side-section">
             <h2>المهارات التقنية</h2>
             <div class="side-rule"></div>
-            <div class="skill-group" data-editable="" id="skillsWeb">
+
+            <div
+              class="skill-group"
+              data-editable
+              id="skillsWeb"
+            >
               <h3>تطوير الويب</h3>
-              <p>React، Next.js، TypeScript، JavaScript، HTML، CSS</p>
+              <p>
+                React، Next.js، TypeScript، JavaScript، HTML، CSS
+              </p>
             </div>
-            <div class="skill-group" data-editable="" id="skillsUi">
+
+            <div
+              class="skill-group"
+              data-editable
+              id="skillsUi"
+            >
               <h3>واجهات المستخدم</h3>
-              <p>Chakra UI، Tailwind CSS، Bootstrap، shadcn/ui</p>
+              <p>
+                Chakra UI، Tailwind CSS، Bootstrap، shadcn/ui
+              </p>
             </div>
-            <div class="skill-group" data-editable="" id="skillsEnterprise">
+
+            <div
+              class="skill-group"
+              data-editable
+              id="skillsEnterprise"
+            >
               <h3>الأنظمة المؤسسية</h3>
-              <p>Odoo 18، Python، XML، QWeb، PHP</p>
+              <p>
+                Odoo 18، Python، XML، QWeb، PHP
+              </p>
             </div>
-            <div class="skill-group" data-editable="" id="skillsIntegration">
+
+            <div
+              class="skill-group"
+              data-editable
+              id="skillsIntegration"
+            >
               <h3>البيانات والتكامل</h3>
-              <p>REST APIs، MySQL، PostgreSQL، Zod، Zustand</p>
+              <p>
+                REST APIs، MySQL، PostgreSQL، Zod، Zustand
+              </p>
             </div>
-            <div class="skill-group" data-editable="" id="skillsTools">
+
+            <div
+              class="skill-group"
+              data-editable
+              id="skillsTools"
+            >
               <h3>الأدوات والبيئة</h3>
-              <p>Git، GitHub، Docker، Linux، Excel، PDF</p>
+              <p>
+                Git، GitHub، Docker، Linux، Excel، PDF
+              </p>
             </div>
-            <div class="skill-group" data-editable="" id="skillsMobile">
+
+            <div
+              class="skill-group"
+              data-editable
+              id="skillsMobile"
+            >
               <h3>تطبيقات الهاتف</h3>
-              <p>Flutter، Dart</p>
+              <p>
+                Flutter، Dart
+              </p>
             </div>
           </section>
+
+          <!-- اللغات -->
           <section class="side-section languages">
             <h2>اللغات</h2>
             <div class="side-rule"></div>
+
             <div class="language-row">
-              <strong>العربية</strong
-              ><span data-editable="" id="arabicLevel">اللغة الأم</span>
+              <strong>العربية</strong>
+
+              <span data-editable id="arabicLevel">
+                اللغة الأم
+              </span>
             </div>
+
             <div class="language-row">
-              <strong>الإنجليزية</strong
-              ><span data-editable="" id="englishLevel"
-                >جيدة في بيئة العمل والتقنية</span
-              >
+              <strong>الإنجليزية</strong>
+
+              <span data-editable id="englishLevel">
+                جيدة في بيئة العمل والتقنية
+              </span>
             </div>
           </section>
+
         </aside>
+
+        <!-- Main -->
         <section class="main-column">
+
+          <!-- الخبرة الحالية -->
           <section class="content-section">
             <header class="section-heading">
               <span>01</span>
               <h2>الخبرة العملية الحالية</h2>
             </header>
+
             <article
               class="experience-card"
-              data-editable=""
+              data-editable
               id="currentExperience"
             >
+
               <div class="entry-top">
                 <div>
                   <h3>مطور نظم وبرمجيات</h3>
+
                   <p class="organization">
                     المنطقة الحرة بمصراتة - مصراتة، ليبيا
                   </p>
                 </div>
-                <time>يوليو 2024 - حتى الآن</time>
+
+                <time>
+                  يوليو 2024 - حتى الآن
+                </time>
               </div>
+
               <ul class="bullet-list">
                 <li>
                   تحليل احتياجات الإدارات والمستخدمين وتحويلها إلى متطلبات
                   ووظائف برمجية قابلة للتنفيذ.
                 </li>
+
                 <li>
                   تصميم قواعد البيانات وتطوير واجهات المستخدم وتكاملها مع خدمات
                   REST API.
                 </li>
+
                 <li>
                   بناء موديولات Odoo وتقارير QWeb وPDF والمراسلات والنماذج
                   القابلة للطباعة.
                 </li>
+
                 <li>
                   تطوير الصلاحيات ومسارات سير العمل، واختبار الأنظمة وإصلاح
                   الأخطاء وتجهيزها للنشر.
                 </li>
+
                 <li>
                   تدريب الموظفين وتقديم الدعم الفني ومتابعة ملاحظات المستخدمين
                   بعد التشغيل.
                 </li>
+
                 <li>
                   العمل بصورة مستقلة في عدد من المشاريع، والتعاون ضمن فريق في
                   مشاريع أخرى.
                 </li>
               </ul>
+
             </article>
           </section>
+
+          <!-- المشاريع الرئيسية -->
           <section class="content-section flagship-projects">
+
             <header class="section-heading">
               <span>02</span>
               <h2>المشاريع الرئيسية</h2>
             </header>
+
+            <!-- البيان الإلكتروني -->
             <article
               class="project-card featured"
-              data-editable=""
+              data-editable
               id="electronicDeclarationProject"
             >
+
               <div class="project-header">
                 <div>
-                  <h3>نظام إدارة البيان الإلكتروني</h3>
+                  <h3>
+                    نظام إدارة البيان الإلكتروني
+                  </h3>
+
                   <p class="project-role">
                     مطور واجهات وأنظمة - مشاركة في البناء من الصفر
                   </p>
                 </div>
-                <time>ديسمبر 2024 - حتى الآن</time>
+
+                <time>
+                  ديسمبر 2024 - حتى الآن
+                </time>
               </div>
+
               <p class="project-description">
                 نظام تشغيلي متكامل لإدارة السفن والرحلات والوكالات الملاحية
                 والحمولات والبيان الإلكتروني، مع تتبع مصدر البضائع وتقييم
                 المخاطر المرتبطة ببلدان المصدر. يعمل حاليًا داخل مكتب الجمارك
                 ويدعم إجراءات مكتب السفن والبيان والوكالات الملاحية.
               </p>
+
               <ul class="bullet-list compact-list">
                 <li>
                   تصميم تجربة المستخدم وبناء صفحات الإدخال والعرض والتعديل
                   والجداول والفلاتر والبحث والترقيم.
                 </li>
+
                 <li>
                   ربط الواجهات مع REST API، والتحقق من البيانات، وإدارة الحالة
                   والصلاحيات حسب المستخدم.
                 </li>
+
                 <li>
                   تجهيز النظام للنشر، واختبار الواجهات، ومعالجة ملاحظات
                   المستخدمين بعد التشغيل.
                 </li>
               </ul>
-              <div aria-label="إحصاءات المشروع" class="metrics">
-                <div><strong>424</strong><span>سفينة</span></div>
-                <div><strong>693</strong><span>رحلة</span></div>
-                <div><strong>114</strong><span>وكالة ملاحية</span></div>
-                <div><strong>614</strong><span>بوليصة / بيان</span></div>
-                <div><strong>≈15</strong><span>مستخدمًا</span></div>
+
+              <div
+                aria-label="إحصاءات المشروع"
+                class="metrics"
+              >
+                <div>
+                  <strong>424</strong>
+                  <span>سفينة</span>
+                </div>
+
+                <div>
+                  <strong>693</strong>
+                  <span>رحلة</span>
+                </div>
+
+                <div>
+                  <strong>114</strong>
+                  <span>وكالة ملاحية</span>
+                </div>
+
+                <div>
+                  <strong>614</strong>
+                  <span>بوليصة / بيان</span>
+                </div>
+
+                <div>
+                  <strong>≈15</strong>
+                  <span>مستخدمًا</span>
+                </div>
               </div>
+
               <p class="tech-line">
-                <strong>التقنيات:</strong> Next.js، TypeScript، Chakra UI، Zod،
+                <strong>التقنيات:</strong>
+                Next.js، TypeScript، Chakra UI، Zod،
                 Zustand، REST APIs، MySQL.
               </p>
+
             </article>
-            <article class="project-card" data-editable="" id="odooProject">
+
+            <!-- Odoo -->
+            <article
+              class="project-card"
+              data-editable
+              id="odooProject"
+            >
+
               <div class="project-header">
                 <div>
                   <h3>
                     نظام إدارة العقود والاعتمادات المستندية والتأمينات
                     والتحويلات المالية
                   </h3>
+
                   <p class="project-role">
                     المطور الوحيد والقائد التقني للمشروع
                   </p>
                 </div>
-                <time>يناير 2026 - حتى الآن</time>
+
+                <time>
+                  يناير 2026 - حتى الآن
+                </time>
               </div>
+
               <p class="project-description">
                 منظومة مؤسسية متكاملة طُورت على Odoo 18 من الصفر لرقمنة العقود
                 والاعتمادات المستندية والتأمينات والتحويلات المالية، إلى جانب
                 الدليل المحاسبي والقيود والتقارير والمراسلات الرسمية.
               </p>
+
               <ul class="bullet-list compact-list">
                 <li>
                   تصميم الموديولات وقواعد البيانات ومسارات العمل والصلاحيات
                   وواجهات الإدخال والبحث والفلاتر.
                 </li>
+
                 <li>
                   إعداد القيود المحاسبية، وربط الشركات والمصارف، وتطوير تقارير
                   QWeb وPDF والمراسلات الرسمية.
                 </li>
+
                 <li>
                   استيراد وتنظيم أكثر من 9,000 سجل في الدليل المحاسبي، وتدريب
                   المستخدمين ودعم التشغيل.
                 </li>
+
                 <li>
                   استكمال وحدتي الاعتمادات والتحويلات، مع استمرار تطوير
                   التأمينات والعقود والدليل المحاسبي.
                 </li>
               </ul>
+
               <p class="tech-line">
-                <strong>التقنيات:</strong> Odoo 18، Python، PostgreSQL، XML،
+                <strong>التقنيات:</strong>
+                Odoo 18، Python، PostgreSQL، XML،
                 QWeb، JavaScript، HTML، CSS، Excel، PDF.
               </p>
+
             </article>
+
           </section>
+
         </section>
+
         <footer class="page-footer">
-          <span>عبد المالك صلاح عباس</span
-          ><span class="page-number" dir="ltr">1 / 2</span>
+          <span>
+            عبد المالك صلاح عباس
+          </span>
+
+          <span class="page-number" dir="ltr">
+            1 / 2
+          </span>
         </footer>
+
       </section>
+
+      <!-- ===================================================== -->
       <!-- الصفحة الثانية -->
+      <!-- ===================================================== -->
+
       <section class="cv-page page-two">
+
         <header class="continuation-header">
           <div>
-            <h2>عبد المالك صلاح عباس</h2>
-            <p>مطور نظم وبرمجيات</p>
+            <h2>
+              عبد المالك صلاح عباس
+            </h2>
+
+            <p>
+              مطور نظم وبرمجيات
+            </p>
           </div>
-          <span>السيرة الذاتية</span>
+
+          <span>
+            السيرة الذاتية
+          </span>
         </header>
+
         <section class="page-two-content">
+
+          <!-- مشاريع إضافية -->
           <section class="content-section">
+
             <header class="section-heading">
               <span>03</span>
               <h2>مشاريع وأنظمة إضافية</h2>
             </header>
+
             <div class="additional-projects">
+
               <article
                 class="mini-project"
-                data-editable=""
+                data-editable
                 id="dataGatewayProject"
               >
-                <h3>بوابة تكامل ومزامنة البيانات - Data Sync Gateway</h3>
+                <h3>
+                  بوابة تكامل ومزامنة البيانات - Data Sync Gateway
+                </h3>
+
                 <p>
                   بوابة مركزية لربط قواعد البيانات والأنظمة المختلفة داخل
                   المنطقة الحرة، وتوحيد تبادل البيانات ومتابعة عمليات المزامنة
                   والتكامل.
                 </p>
               </article>
-              <article class="mini-project" data-editable="" id="hrOdooProject">
-                <h3>نظام مزامنة بيانات الموارد البشرية مع Odoo</h3>
+
+              <article
+                class="mini-project"
+                data-editable
+                id="hrOdooProject"
+              >
+                <h3>
+                  نظام مزامنة بيانات الموارد البشرية مع Odoo
+                </h3>
+
                 <p>
                   حل تكاملي لمزامنة بيانات الموظفين والهيكل التنظيمي بين نظام
                   الموارد البشرية ومنصة Odoo، بهدف تقليل الإدخال اليدوي وتوحيد
                   البيانات.
                 </p>
               </article>
+
               <article
                 class="mini-project"
-                data-editable=""
+                data-editable
                 id="smartGateProject"
               >
-                <h3>نظام البوابة الذكية</h3>
+                <h3>
+                  نظام البوابة الذكية
+                </h3>
+
                 <p>
                   نظام إلكتروني لتنظيم ورقمنة العمليات المرتبطة ببوابات المنطقة
                   الحرة، وتوفير بيانات مركزية لمتابعة إجراءات الدخول والخروج.
                 </p>
               </article>
+
               <article
                 class="mini-project"
-                data-editable=""
+                data-editable
                 id="driversTrucksProject"
               >
-                <h3>نظام إدارة السائقين والشاحنات</h3>
+                <h3>
+                  نظام إدارة السائقين والشاحنات
+                </h3>
+
                 <p>
                   منظومة لإدارة بيانات السائقين والشاحنات والسجلات المرتبطة بهم،
                   مع تسهيل البحث والمتابعة وتحديث البيانات.
                 </p>
               </article>
+
               <article
                 class="mini-project"
-                data-editable=""
+                data-editable
                 id="inventoryAssetsProject"
               >
-                <h3>أنظمة الجرد والأصول والترقيم</h3>
+                <h3>
+                  أنظمة الجرد والأصول والترقيم
+                </h3>
+
                 <p>
                   تطوير وظائف لإدارة الجرد وتسجيل الأصول، ثم إضافة نظام للترقيم
                   بهدف تحسين تنظيم الموجودات والتعرف عليها وتتبعها.
                 </p>
               </article>
+
               <article
                 class="mini-project"
-                data-editable=""
+                data-editable
                 id="warehouseReportsProject"
               >
-                <h3>نظام تقارير المخازن</h3>
+                <h3>
+                  نظام تقارير المخازن
+                </h3>
+
                 <p>
                   تطوير تقارير إلكترونية لعرض بيانات المخازن والمواد ومساعدة
                   الإدارات المختصة على متابعة المخزون بصورة أكثر تنظيمًا.
                 </p>
               </article>
+
             </div>
           </section>
+
           <div class="two-column-sections">
+
+            <!-- الخبرة السابقة -->
             <section class="content-section">
+
               <header class="section-heading small-heading">
                 <span>04</span>
                 <h2>خبرة سابقة</h2>
               </header>
+
               <article
                 class="experience-card secondary"
-                data-editable=""
+                data-editable
                 id="previousExperience"
               >
+
                 <div class="entry-top">
                   <div>
-                    <h3>مسؤول الشحن البري</h3>
+                    <h3>
+                      مسؤول الشحن البري
+                    </h3>
+
                     <p class="organization">
                       دار المزاد لشحن السيارات الأمريكية
                     </p>
                   </div>
-                  <time>سبتمبر 2018 - مارس 2021</time>
+
+                  <time>
+                    سبتمبر 2018 - مارس 2021
+                  </time>
                 </div>
+
                 <ul class="bullet-list compact-list">
                   <li>
                     متابعة شحن السيارات من المزادات إلى الميناء والتنسيق مع
                     السائقين والعملاء.
                   </li>
+
                   <li>
                     إدخال بيانات السيارات في النظام والتفاوض على الأسعار ومعالجة
                     مشكلات الشحن.
                   </li>
+
                   <li>
                     تنفيذ الجرد الشهري والسنوي والمشاركة في تحميل السيارات داخل
                     الحاويات.
                   </li>
                 </ul>
+
               </article>
+
             </section>
+
+            <!-- التعليم والدورات -->
             <section class="content-section">
+
               <header class="section-heading small-heading">
                 <span>05</span>
                 <h2>التعليم والدورات التدريبية</h2>
               </header>
 
+              <!-- دورة المحاسبة -->
               <article
                 class="timeline-item"
-                data-editable=""
-                id="occupationalSafetyCourse"
+                data-editable
+                id="accountingNonAccountantsCourse"
               >
-                <time>2026</time>
+                <time>
+                  أغسطس 2026
+                </time>
+
                 <div>
-                  <h3>دورة الأمن والسلامة المهنية</h3>
+                  <h3>
+                    دورة المحاسبة لغير المحاسبين
+                  </h3>
+
                   <p>
-                    تدريب عملي على أنواع الحرائق، وإجراءات الوقاية، واستخدام
-                    طفايات الحريق
+                    الشركة الأهلية للصناعات الأسمنتية |
+                    23 - 27 أغسطس 2026
                   </p>
                 </div>
               </article>
-              <article class="timeline-item" data-editable="" id="mobileCourse">
-                <time>سبتمبر 2025</time>
-                <div>
-                  <h3>تطوير تطبيقات الهواتف المحمولة</h3>
-                  <p>مركز Top Genius - مصر | Dart وFlutter</p>
-                </div>
-              </article>
+
+              <!-- الأمن والسلامة -->
               <article
                 class="timeline-item"
-                data-editable=""
+                data-editable
+                id="occupationalSafetyCourse"
+              >
+                <time>
+                  2026
+                </time>
+
+                <div>
+                  <h3>
+                    دورة الأمن والسلامة المهنية
+                  </h3>
+
+                  <p>
+                    تدريب عملي على أنواع الحرائق، وإجراءات الوقاية،
+                    واستخدام طفايات الحريق
+                  </p>
+                </div>
+              </article>
+
+              <!-- Flutter -->
+              <article
+                class="timeline-item"
+                data-editable
+                id="mobileCourse"
+              >
+                <time>
+                  سبتمبر 2025
+                </time>
+
+                <div>
+                  <h3>
+                    تطوير تطبيقات الهواتف المحمولة
+                  </h3>
+
+                  <p>
+                    مركز Top Genius - مصر | Dart وFlutter
+                  </p>
+                </div>
+              </article>
+
+              <!-- Social Media -->
+              <article
+                class="timeline-item"
+                data-editable
                 id="socialDesignCourse"
               >
-                <time>مارس 2023</time>
+                <time>
+                  مارس 2023
+                </time>
+
                 <div>
-                  <h3>ورشة تصميمات السوشيال ميديا</h3>
-                  <p>نور ديزاين</p>
+                  <h3>
+                    ورشة تصميمات السوشيال ميديا
+                  </h3>
+
+                  <p>
+                    نور ديزاين
+                  </p>
                 </div>
               </article>
+
+              <!-- Graduates -->
               <article
                 class="timeline-item"
-                data-editable=""
+                data-editable
                 id="graduatesForum"
               >
-                <time>ديسمبر 2022</time>
+                <time>
+                  ديسمبر 2022
+                </time>
+
                 <div>
-                  <h3>الملتقى التدريبي الأول لخريجي تقنية المعلومات</h3>
-                  <p>كلية تقنية المعلومات</p>
+                  <h3>
+                    الملتقى التدريبي الأول لخريجي تقنية المعلومات
+                  </h3>
+
+                  <p>
+                    كلية تقنية المعلومات
+                  </p>
                 </div>
               </article>
-              <article class="timeline-item" data-editable="" id="education">
-                <time>سبتمبر 2022</time>
-                <div>
-                  <h3>بكالوريوس نظم الإنترنت</h3>
-                  <p>كلية تقنية المعلومات - مصراتة</p>
-                </div>
-              </article>
+
+              <!-- Education -->
               <article
                 class="timeline-item"
-                data-editable=""
-                id="digitalMarketingCourse"
+                data-editable
+                id="education"
               >
-                <time>مارس 2022</time>
+                <time>
+                  سبتمبر 2022
+                </time>
+
                 <div>
-                  <h3>ورشة التسويق الرقمي</h3>
-                  <p>Google</p>
+                  <h3>
+                    بكالوريوس نظم الإنترنت
+                  </h3>
+
+                  <p>
+                    كلية تقنية المعلومات - مصراتة
+                  </p>
                 </div>
               </article>
+
+              <!-- Marketing -->
+              <article
+                class="timeline-item"
+                data-editable
+                id="digitalMarketingCourse"
+              >
+                <time>
+                  مارس 2022
+                </time>
+
+                <div>
+                  <h3>
+                    ورشة التسويق الرقمي
+                  </h3>
+
+                  <p>
+                    Google
+                  </p>
+                </div>
+              </article>
+
             </section>
+
           </div>
+
+          <!-- الكفاءات -->
           <section class="content-section competencies-section">
+
             <header class="section-heading small-heading">
               <span>06</span>
               <h2>الكفاءات المهنية</h2>
             </header>
-            <div class="competency-grid" data-editable="" id="competencies">
+
+            <div
+              class="competency-grid"
+              data-editable
+              id="competencies"
+            >
               <span>تحليل المتطلبات</span>
+
               <span>تصميم قواعد البيانات</span>
+
               <span>تطوير واجهات المستخدم</span>
+
               <span>تكامل الأنظمة وREST APIs</span>
+
               <span>تطوير موديولات Odoo</span>
+
               <span>التقارير والطباعة وPDF</span>
+
               <span>النشر والتشغيل</span>
+
               <span>الاختبار وإصلاح الأخطاء</span>
+
               <span>تدريب المستخدمين</span>
+
               <span>الدعم الفني</span>
             </div>
+
           </section>
+
         </section>
+
         <footer class="page-footer">
-          <span>endm268@gmail.com | +218 91 4344721</span
-          ><span class="page-number" dir="ltr">2 / 2</span>
+          <span>
+            endm268@gmail.com | +218 91 4344721
+          </span>
+
+          <span class="page-number" dir="ltr">
+            2 / 2
+          </span>
         </footer>
+
       </section>
+
     </main>
+
     <div
       aria-live="polite"
       class="status-message"
       id="statusMessage"
       role="status"
     ></div>
+
     <script src="script.js"></script>
   </body>
 </html>
